@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Set
 %define	pnam	IntSpan
-%include	/usr/lib/rpm/macros.perl
 Summary:	Set-IntSpan perl module
 Summary(pl):	Modu³ perla Set-IntSpan
 Name:		perl-Set-IntSpan
 Version:	1.07
-Release:	7
-
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Set-IntSpan perl module.
 Modu³ perla Set-IntSpan.
 
 %prep
-%setup -q -n Set-IntSpan-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
