@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Set
 %define	pnam	IntSpan
-Summary:	Set-IntSpan perl module
-Summary(pl):	Modu³ perla Set-IntSpan
+Summary:	Set::IntSpan perl module
+Summary(pl):	Modu³ perla Set::IntSpan
 Name:		perl-Set-IntSpan
 Version:	1.07
 Release:	8
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Set-IntSpan perl module.
+Set::IntSpan perl module.
 
 %description -l pl
-Modu³ perla Set-IntSpan.
+Modu³ perla Set::IntSpan.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
