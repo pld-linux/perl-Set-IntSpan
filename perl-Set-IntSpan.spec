@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Set
-%define	pnam	IntSpan
+%define		pdir	Set
+%define		pnam	IntSpan
 Summary:	Set::IntSpan Perl module - manages sets of integers
 Summary(pl):	Modu³ Perla Set::IntSpan - zarz±dzanie zbiorami liczb ca³kowitych
 Name:		perl-Set-IntSpan
