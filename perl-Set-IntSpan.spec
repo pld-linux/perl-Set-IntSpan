@@ -3,7 +3,7 @@ Summary:	Set-IntSpan perl module
 Summary(pl):	Modu³ perla Set-IntSpan
 Name:		perl-Set-IntSpan
 Version:	1.07
-Release:	4
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
