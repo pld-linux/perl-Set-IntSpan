@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Set
 %define	pnam	IntSpan
-Summary:	Set::IntSpan Perl module - Manages sets of integers
-Summary(pl):	Modu³ Perla Set::IntSpan - zarz±dzaj±cy zbiorami liczb ca³kowitych
+Summary:	Set::IntSpan Perl module - manages sets of integers
+Summary(pl):	Modu³ Perla Set::IntSpan - zarz±dzanie zbiorami liczb ca³kowitych
 Name:		perl-Set-IntSpan
 Version:	1.07
 Release:	11
