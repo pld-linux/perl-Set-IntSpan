@@ -1,6 +1,6 @@
 #
 # Conditional build:
-%bcond_without  tests   # do not perform "make test"
+%bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Set
@@ -21,8 +21,8 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Set::IntSpan manages sets of integers.  It is optimized for sets that
-have long runs of consecutive integers.  These arise, for example, in
+Set::IntSpan manages sets of integers. It is optimized for sets that
+have long runs of consecutive integers. These arise, for example, in
 .newsrc files, which maintain lists of articles.
 
 %description -l pl
