@@ -1,3 +1,7 @@
+#
+# Conditional build:
+%bcond_without  tests   # do not perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Set
 %define	pnam	IntSpan
@@ -6,7 +10,8 @@ Summary(pl):	Modu³ Perla Set::IntSpan - zarz±dzanie zbiorami liczb ca³kowitych
 Name:		perl-Set-IntSpan
 Version:	1.07
 Release:	11
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	2f8839d5897f1f0597bff1e6475004bb
@@ -34,10 +39,13 @@ artyku³ów.
 	INSTALLDIRS=vendor
 %{__make}
 
+%{?with_tests:%{__make} test}
+
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
