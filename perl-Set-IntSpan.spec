@@ -1,8 +1,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Set
 %define	pnam	IntSpan
-Summary:	Set::IntSpan perl module
-Summary(pl):	Modu³ perla Set::IntSpan
+Summary:	Set::IntSpan - Manages sets of integers
 Name:		perl-Set-IntSpan
 Version:	1.07
 Release:	8
@@ -15,10 +14,9 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Set::IntSpan perl module.
-
-%description -l pl
-Modu³ perla Set::IntSpan.
+C<Set::IntSpan> manages sets of integers.  It is optimized for sets
+that have long runs of consecutive integers.  These arise, for example,
+in .newsrc files, which maintain lists of articles:
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
