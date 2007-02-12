@@ -6,7 +6,7 @@
 %define		pdir	Set
 %define		pnam	IntSpan
 Summary:	Set::IntSpan Perl module - manages sets of integers
-Summary(pl):	Modu³ Perla Set::IntSpan - zarz±dzanie zbiorami liczb ca³kowitych
+Summary(pl.UTF-8):   ModuÅ‚ Perla Set::IntSpan - zarzÄ…dzanie zbiorami liczb caÅ‚kowitych
 Name:		perl-Set-IntSpan
 Version:	1.09
 Release:	1
@@ -25,11 +25,11 @@ Set::IntSpan manages sets of integers. It is optimized for sets that
 have long runs of consecutive integers. These arise, for example, in
 .newsrc files, which maintain lists of articles.
 
-%description -l pl
-Modu³ Set::IntSpan zarz±dza zbiorami liczb ca³kowitych. Jest
-zoptymalizowany dla zbiorów, które maj± d³ugie ci±gi kolejnych liczb.
-Jest to czêste na przyk³ad w plikach .newsrc, które zawieraj± listy
-artyku³ów.
+%description -l pl.UTF-8
+ModuÅ‚ Set::IntSpan zarzÄ…dza zbiorami liczb caÅ‚kowitych. Jest
+zoptymalizowany dla zbiorÃ³w, ktÃ³re majÄ… dÅ‚ugie ciÄ…gi kolejnych liczb.
+Jest to czÄ™ste na przykÅ‚ad w plikach .newsrc, ktÃ³re zawierajÄ… listy
+artykuÅ‚Ã³w.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
