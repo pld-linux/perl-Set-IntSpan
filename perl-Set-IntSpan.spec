@@ -6,7 +6,7 @@
 %define		pdir	Set
 %define		pnam	IntSpan
 Summary:	Set::IntSpan Perl module - manages sets of integers
-Summary(pl.UTF-8):   Moduł Perla Set::IntSpan - zarządzanie zbiorami liczb całkowitych
+Summary(pl.UTF-8):	Moduł Perla Set::IntSpan - zarządzanie zbiorami liczb całkowitych
 Name:		perl-Set-IntSpan
 Version:	1.09
 Release:	1
