@@ -8,13 +8,13 @@
 Summary:	Set::IntSpan Perl module - manages sets of integers
 Summary(pl.UTF-8):	Moduł Perla Set::IntSpan - zarządzanie zbiorami liczb całkowitych
 Name:		perl-Set-IntSpan
-Version:	1.16
+Version:	1.19
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Set/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	9d58be939d0374b793733726766cd524
+# Source0-md5:	7c21c2fedce5b7be7d8200e2cf2bdca1
 URL:		http://search.cpan.org/dist/Set-IntSpan/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
